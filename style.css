@@ -1,0 +1,14 @@
+body { margin: 0; padding-bottom: 70px; font-family: sans-serif; }
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+.bottom-nav a { text-decoration: none; color: #333; text-align: center; font-size: 12px; }
+.bottom-nav i { font-size: 20px; margin-bottom: 4px; }
