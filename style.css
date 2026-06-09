@@ -1,14 +1,30 @@
-body { margin: 0; padding-bottom: 70px; font-family: sans-serif; }
-.bottom-nav {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background: #ffffff;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px 0;
-    border-top: 1px solid #ddd;
-    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
-}
-.bottom-nav a { text-decoration: none; color: #333; text-align: center; font-size: 12px; }
-.bottom-nav i { font-size: 20px; margin-bottom: 4px; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gibson Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="whatsapp-bar">
+            <a href="https://wa.me/966541163270" target="_blank">
+                <i class="fab fa-whatsapp"></i> Chat: +966541163270
+            </a>
+        </div>
+        <img src="banner.jpg" class="banner-img" alt="Gibson Store">
+    </header>
+
+    <nav class="bottom-nav">
+        <a href="index.html"><i class="fas fa-home"></i><span>Shop</span></a>
+        <a href="category.html"><i class="fas fa-th-large"></i><span>Category</span></a>
+        <a href="trending.html"><i class="fas fa-fire"></i><span>Trends</span></a>
+        <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>Cart</span></a>
+        <a href="me.html"><i class="fas fa-user"></i><span>Me</span></a>
+    </nav>
+
+</body>
+</html>
